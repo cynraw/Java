@@ -15,6 +15,9 @@ public class FileReaderDemo {
         catch(IOException e){
             System.out.println("I/O error occured");
         }
+        catch (Exception e){
+            System.out.println("Unexpected error occured!");
+        }
 
         
     }
