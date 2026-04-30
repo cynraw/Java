@@ -6,7 +6,7 @@ public class FileReaderDemo {
     public static void main(String[] args){
         try{
             FileReader fr = new FileReader("C:\\Users\\root\\Downloads\\Lamda_Expression.pdf");
-            BufferedReader br = new BufferedReader(fr);
+            BufferedReaderExample br = new BufferedReaderExample(fr);
             System.out.println(br.readLine());
         }
         catch(FileNotFoundException e){
