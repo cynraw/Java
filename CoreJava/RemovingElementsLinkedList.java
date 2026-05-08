@@ -1,4 +1,5 @@
 
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class RemovingElementsLinkedList{
@@ -25,5 +26,6 @@ public class RemovingElementsLinkedList{
         //Removing at an index
         fruits.remove(1);
         System.out.println("After removing element at index 1 : " + fruits);
-    }
+
+        Iterator<String>    
 }
